@@ -1,0 +1,27 @@
+{
+  "_client-BE1L4nLD.js": {
+    "file": "assets/client-BE1L4nLD.js",
+    "name": "client",
+    "dynamicImports": [
+      "app/routes/hello.tsx?tsr-split"
+    ]
+  },
+  "app/routes/hello.tsx?tsr-split": {
+    "file": "assets/hello-32X9uJco.js",
+    "name": "hello",
+    "src": "app/routes/hello.tsx?tsr-split",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-BE1L4nLD.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-DWfUwVND.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-BE1L4nLD.js"
+    ]
+  }
+}

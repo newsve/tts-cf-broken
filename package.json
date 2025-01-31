@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev --host",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.98.4",
+    "@tanstack/start": "^1.98.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "unenv": "^1.10.0",
+    "vinxi": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
